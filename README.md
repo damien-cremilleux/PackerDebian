@@ -1,5 +1,5 @@
 # Debian Packer template
-Template to build a VirtualBox/Vagrant box based on [Debian](https://www.debian.org/) Jessie 8.4.
+Template to build a VirtualBox/Vagrant box based on [Debian](https://www.debian.org/) Jessie 8.5.
 
 ## Prerequisites
 - Packer: https://www.packer.io/
