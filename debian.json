@@ -7,8 +7,8 @@
         "type": "virtualbox-iso",
 
         "guest_os_type": "Debian_64",
-        "iso_url": "http://cdimage.debian.org/debian-cd/8.4.0/amd64/iso-cd/debian-8.4.0-amd64-netinst.iso",
-        "iso_checksum": "8d52d1b7789cd5a464aae719f05299ec",
+        "iso_url": "http://cdimage.debian.org/debian-cd/8.5.0/multi-arch/iso-cd/debian-8.5.0-amd64-i386-netinst.iso",
+        "iso_checksum": "6753c353cef5f5336079d94562ad15c3",
         "iso_checksum_type": "md5",
 
         "vboxmanage": [
@@ -40,7 +40,7 @@
 
         "ssh_username": "vagrant",
         "ssh_password": "vagrant",
-        "ssh_wait_timeout": "20m",
+        "ssh_wait_timeout": "40m",
 
         "shutdown_command": "echo 'vagrant' | sudo -S shutdown -P now"
     }],
